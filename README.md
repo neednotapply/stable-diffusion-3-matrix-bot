@@ -1,32 +1,30 @@
-# Stable Diffusion 3 - Discord Bot
+# Stable Diffusion 3 - Matrix Bot
 
-A Discord bot for generating images using Stable Diffusion 3.
-
-![image](https://github.com/RocketGod-git/stable-diffusion-3-discord-bot/assets/57732082/3ab6c2cc-48c7-4bad-808b-e6966552b950)
+A Matrix bot for generating images using Stable Diffusion 3.
 
 ## Features
 - Generate images from text prompts using Stable Diffusion 3.
 - Easy to set up and run.
-- Real-time interaction on Discord.
+- Real-time interaction on Matrix.
 
 ## Prerequisites
 - Python
 - GPU with CUDA installed
-- Discord Developer account
+- Matrix Developer account
 
 ## Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/RocketGod-git/stable-diffusion-3-discord-bot.git
-   cd stable-diffusion-3-discord-bot
+   git clone https://github.com/neednotapply/stable-diffusion-3-matrix-bot.git
+   cd stable-diffusion-3-Matrix-bot
    ```
 
 2. Configure your tokens:
-   - Open `config.json` and add your Discord bot token and Huggingface token:
+   - Open `config.json` and add your Matrix bot token and Huggingface token:
      ```json
      {
-       "discord_bot_token": "YOUR-DISCORD-BOT-TOKEN-GOES-HERE",
+       "Matrix_bot_token": "YOUR-MATRIX-BOT-TOKEN-GOES-HERE",
        "huggingface_token": "YOUR-HUGGINGFACE-TOKEN-GOES-HERE"
      }
      ```
@@ -36,11 +34,11 @@ A Discord bot for generating images using Stable Diffusion 3.
    sd3bot.bat
    ```
 
-4. Setup the bot in Discord Developer Portal. I can't help with this so you'll have to figure it out.
+4. Setup the bot in Matrix Developer Portal. I can't help with this so you'll have to figure it out.
 
 ## Usage
 
-- Use the `/sd3` command in Discord followed by your prompt to generate an image.
+- Use the `/sd3` command in Matrix followed by your prompt to generate an image.
 
 ## Contributing
 
@@ -52,8 +50,6 @@ Help make this better! Submit a PR if you have an improvement.
 
 ## Acknowledgements
 
-- [Discord.py](https://github.com/Rapptz/discord.py)
+- [Matrix.py](https://github.com/Rapptz/Matrix.py)
 - [Huggingface](https://huggingface.co/)
 - [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
-
-![RocketGod](https://github.com/RocketGod-git/Flipper_Zero/assets/57732082/f5d67cfd-585d-4b23-905f-37151e3d6a7d)
